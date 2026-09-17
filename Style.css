@@ -214,3 +214,13 @@ section h2{
 .gallery-container img:hover {
     transform: scale(1.05);
 }
+@media (max-width: 600px) {
+
+    .hero-image img {
+        width: 250px;
+        height: auto;
+        display: block;
+        margin: 20px auto;
+    }
+
+}
